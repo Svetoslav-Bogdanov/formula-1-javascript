@@ -1,19 +1,17 @@
-.border-3{
-    padding-bottom: 20px;
-    margin-bottom: 20px;
-
-}
-
-.list-year{
-    border: 2px solid;
-    padding-left: 0px;
-    background-color: rgb(157, 157, 157);
+ul{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 0px;
 }
 
 li{
     text-align: center;
     list-style-type:none;
     margin: 10px 5px;
+    padding: 20px;
+    background-color: rgb(157, 157, 157);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 30px;
 }
 
 a {
