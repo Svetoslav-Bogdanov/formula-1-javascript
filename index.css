@@ -1,0 +1,26 @@
+
+ul{
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+li {
+    text-align: center;
+    list-style-type:none;
+    padding: 20px 60px;
+    margin-bottom: 10px;
+    background-color: rgb(157, 157, 157);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 30px;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
