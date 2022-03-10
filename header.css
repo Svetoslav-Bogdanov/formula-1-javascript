@@ -1,8 +1,6 @@
 
-h1{
-    border-bottom: 3px solid;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
+header.container{
+    border-bottom: 2px solid;
     color: rgb(68, 68, 68);
 
 }
