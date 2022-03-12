@@ -1,0 +1,64 @@
+
+.heading > h1{
+    display: flex;
+    justify-content: right;
+}
+
+.badge {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 30px;
+    background-color:black !important;
+    padding: 0px;
+    border-radius: 50%;
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+    font-weight: bold;
+}
+
+.main-row{
+    border-bottom: solid 1px;
+    padding: 5px 0px;
+}
+
+.f1-border-bottom{
+    border-bottom: 2px solid black;  
+}
+
+.race__title{
+    font-size: 36px;
+
+}
+
+.race__title:hover{
+    color: rgb(68, 68, 68);
+}
+
+.race__location{
+    margin-bottom: 0;
+}
+
+.race__date{
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.race__time {
+    text-align: center;
+    padding: 5px;
+    
+}
+
+.race__datetime {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
