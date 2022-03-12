@@ -24,3 +24,7 @@ a {
     font-weight: bold;
     font-size: 18px;
 }
+
+a:hover{
+    color: rgb(68, 68, 68);
+}

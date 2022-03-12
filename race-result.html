@@ -11,77 +11,70 @@
     <link href="schedule.css" rel="stylesheet">
     <link href="race-result.css" rel="stylesheet">
 
-    <title>Document</title>
+    <title>F1 race Result</title>
 </head>
 
 <body>
-    <header class="container">
+    <div class="container">
         <div class="row">
-            <div class="col-6">
-                <h1>Сезон 2021</h1>
+            <div class="col pe-0">
+                <header>
+                    <h1>Сезони 2021</h1>
+                </header>
             </div>
-            <div class="col-6">
-                <h1>Състезания</h1>
+            <div class="col ps-0 text-end">
+                <header>
+                    <h1>Резултат</h1>
+                </header>
             </div>
         </div>
-    </header>
-
-    <main class="container">
-        <div class="row justify-content-evenly">
-            <div class="col-2">
-                <span class="badge bg-secondary">1</span>
-            </div>
-            <div class="col-8">
-                <a href="">
-                    <h3>brohem Boguti Baban</h3>
-                </a>
-                <p>brohem Boguti Baban</p>
-            </div>
-
-            <div class="col-2 date">
-                <div class="border-date">
-                    28.03.2025
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-2 text-center text-md-start f1-border-bottom f1-border-top pt-3 pb-3 ps-0">
+                    <div class="badge bg-secondary">
+                        1
+                    </div>
                 </div>
-                <div>
-                    15:25
+                <div class="col-12 col-md-8 text-center text-md-start f1-border-bottom pt-3 pb-3">
+                    <a href="" class="race__title">Bahrain Grand prix</a>
+                    <p class="race__location">bahrain International Circuit, Bla-Bla</p>
+
                 </div>
-            </div>
-        </div>
-        <div class="row justify-content-evenly">
-            <div class="col-2">
-                <h2>&num;</h2>
-            </div>
-            <div class="col-5">
-                <h2>Pilot</h2>
-            </div>
-            <div class="col-5">
-                <h2>Constructor</h2>
-            </div>
-        </div>
-        <div class="row justify-content-evenly">
-            <div class="col-2">
-                1
-            </div>
-            <div class="col-5">
-                Lewuis Hamilton
-            </div>
-            <div class="col-5">
-                Mercedes
-            </div>
-        </div>
-        <div class="row justify-content-evenly">
-            <div class="col-2">
-                2
-            </div>
-            <div class="col-5">
-                Max Verstapen
-            </div>
-            <div class="col-5">
-            Red Bull
+                <div class="col-12 col-md-2 f1-border-bottom f1-border-top pt-3 pb-3 pe-0 race__datetime">
+                    <div class="race__date">
+                        12.03.2022
+                    </div>
+                    <div class="race__time">
+                        14:55
+                    </div>
+                </div>
             </div>
         </div>
         
-    </main>
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Pilot</th>
+                    <th scope="col">Constructor</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Hamilton</td>
+                    <td>Otto</td>
+                
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                  </tr>
+                </tbody>
+              </table>
+
+    </div>
 
 </body>
 
